@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.App-header {
+    background-color: #553cb3;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.App-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.database-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.user-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
